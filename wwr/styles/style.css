@@ -37,6 +37,18 @@ main section {
     text-align: center;
 }
 
+    rivers-card {
+        text-align: center;
+    }
+
+    camping-card {
+        text-align: center;
+    }
+
+    rapids-card {
+        text-align: center;
+    }
+
 .button-box {
     text-align: center;
 }
