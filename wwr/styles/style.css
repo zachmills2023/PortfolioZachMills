@@ -1,6 +1,6 @@
 #content {
     max-width:1600px;
-    margin: 0 auto; /*The 0 tell the webpage to display "0" margin for top and bottom.
+    margin: 0 auto; /*The "0" tells the webpage to display "0" margin for top and bottom.
      The "auto" is for left and right margins*/
 }
 
@@ -31,6 +31,14 @@ body {
 
 header {
     background-color:#005f73;
+}
+
+main section {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
 }
 
 .book,
