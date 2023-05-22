@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Montserrat&family=Raleway&family=Ysabeau:wght@200;300&display=swap');
+
 #content {
     max-width:1600px;
     margin: 0 auto; /*The "0" tells the webpage to display "0" margin for top and bottom.
@@ -5,6 +8,7 @@
 }
 
 nav a {
+    padding: 35px;
     text-align:center;
     background-color: #005f73;
     color: #E9D8A6;
@@ -21,11 +25,22 @@ nav a:hover {
     text-align: center;
 }
 
+h2 {
+    margin: 0;
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+    font-family: "Averia Gruesa Libre", Arial, Roboto;
+    /* color: var(--headline-color-on-white); 
+  }  */
+
 #background {
     height: 725px;
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background-color: #63BB9C; 
 }
 
@@ -37,24 +52,39 @@ main section {
     text-align: center;
 }
 
-    rivers-card {
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+ /* border: 10px solid #005f73; */
+    margin: 200px 0;
+}
+ /* rivers-card {
         text-align: center;
     }
-
     camping-card {
         text-align: center;
     }
-
     rapids-card {
         text-align: center;
-    }
+    }                       */
+
+.card-img {
+    border: 10px solid #005f73;
+}
 
 .button-box {
     text-align: center;
 }
 
 .book,
-.join {
+.join { 
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 15px 30px;
+  font-family: Montserrat, "Times New Roman", Georgia;
+  font-size: 18px;
   background-color:#63BB9C ; 
   color: #005f73;
   text-decoration: none;
@@ -72,8 +102,10 @@ main section {
 }
 
 .msg {
+  padding: 35px;
   background-color: #63BB9C;
   color: #005f73;
+  line-height: 1.5em;
 }
 
 .msg h2 {
@@ -81,12 +113,17 @@ main section {
     color: #005f73;
 }
 
-.msg p{
+.msg p {
+    padding-bottom: 15px;
+    font-family: Ysabeau, Georgia, serif ;
+    font-size: .8em;
     background-color: #63BB9C;
     color: #005f73;
 }
 
 footer {
+  margin-top: 200px;
+  padding: 25px 50px;
   background-color: #005f73;
   color: #E9D8A6;
 }
@@ -110,7 +147,14 @@ footer p a:hover {
     text-decoration: underline;
 }    
 
+footer .social img {
+padding-top: 15px;
+}
+
 .home-title {
+    margin-top: 10px;
+    font-family: "Averia Gruesa Libre", Helvetica, Arial;
+    font-size: 2em;
     background-color: #63BB9C;
     color: #005f73;
 }
@@ -124,7 +168,12 @@ h4 {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
+    padding-top: 10px;
     width: 80px;
 }
 
