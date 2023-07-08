@@ -34,6 +34,7 @@ p.about-paragraph {
     padding: 0 20px;
 }
 h1 {
+    padding-left:10px;
     text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
